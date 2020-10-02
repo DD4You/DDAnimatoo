@@ -1,6 +1,6 @@
 # DDAnimatoo
 
-[ ![jCenter](http://img.shields.io/bintray/version/joe/maven/artifact.svg) ](https://bintray.com/dd4you/DD4YouAppsConfig/in.dd4you.animatoo)
+[ ![jCenter](https://api.bintray.com/packages/yelp/paasta/paasta-tools/images/download.svg) ](https://bintray.com/dd4you/DD4YouAppsConfig/in.dd4you.animatoo/_latestVersion)
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 
