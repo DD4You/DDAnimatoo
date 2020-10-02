@@ -1,5 +1,7 @@
 # DDAnimatoo
 
+[![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
+[![API](https://img.shields.io/badge/API-11%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=16)
 [ ![Download](https://api.bintray.com/packages/dd4you/DD4YouAppsConfig/in.dd4you.animatoo/images/download.svg) ](https://bintray.com/dd4you/DD4YouAppsConfig/in.dd4you.animatoo/_latestVersion)
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
