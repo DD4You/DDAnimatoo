@@ -1,0 +1,3 @@
+include ':animatoo'
+include ':app'
+rootProject.name = "DD Animatoo"
