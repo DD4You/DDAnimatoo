@@ -1,5 +1,9 @@
 # DDAnimatoo
 
+[ ![jCenter](http://img.shields.io/bintray/version/joe/maven/artifact.svg) ](https://bintray.com/dd4you/DD4YouAppsConfig/in.dd4you.animatoo)
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0.html)
+
+
 Bored with same animation for activity, Fragment, ViewPager and Viewpager2 transition? DDAnimatoo is a lightweight and easy to use Android library that provides many activity, Fragment, ViewPager and Viewpager2 transition animations.
 * min SDK 16 (Android Jellybean 4.1)
 * written in Java
@@ -60,10 +64,9 @@ FrAnimatoo.animateZoom(fragmentTransaction);  //fire the zoom animation
 fragmentTransaction.replace(frameLayout.getId(), new FragmentName());
 fragmentTransaction.commit();
 ```
-```
 
 
-All the available methods for this library:
+## All the available methods for this library:
 ```java
 Animatoo.animateZoom(context);
 Animatoo.animateFade(context);
@@ -80,5 +83,4 @@ Animatoo.animateSlideLeft(context);
 Animatoo.animateSlideRight(context);
 Animatoo.animateSlideDown(context);
 Animatoo.animateSlideUp(context);
-
 ```
