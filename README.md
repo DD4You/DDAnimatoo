@@ -87,7 +87,7 @@ Animatoo.animateSlideUp(context);
 
 # Inspiration
 
-This library was made by possible based on code and design inspiration from these sources:
+This library was made by possible based on code and design inspiration from these sources:  
 https://github.com/AtifSayings/Animatoo
 
 
