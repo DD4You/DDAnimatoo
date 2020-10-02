@@ -14,8 +14,9 @@ A lightweight, easy-to-use Android library that provides awesome activity, Fragm
 
 
 ## Screenshots
-<img src="https://github.com/mohammadatif/Animatoo/blob/master/Screen%20Shots/Card.gif" width="190" height="270" />
-<img src="https://github.com/mohammadatif/Animatoo/blob/master/Screen%20Shots/Diagonal.gif" width="190" height="270" />
+<img src="https://github.com/DD4You/DDAnimatoo/blob/master/screenshots/activity.gif" width="190" height="270" />
+<img src="https://github.com/DD4You/DDAnimatoo/blob/master/screenshots/fragment.gif" width="190" height="270" />
+<img src="https://github.com/DD4You/DDAnimatoo/blob/master/screenshots/viewpager.gif" width="190" height="270" />
 
 ## Installation
 
