@@ -26,7 +26,7 @@ dependencies {
 }
 ```
 ## Usage
-DDAnimatoo has 15 different activity and Fragment transition animations:
+### DDAnimatoo has 15 different activity/Fragment transition animations:
 
 01. in and out.
 02. swipe left.
@@ -43,6 +43,21 @@ DDAnimatoo has 15 different activity and Fragment transition animations:
 13. slide down.
 14. slide left.
 15. slide right.
+
+### DDAnimatoo has 12 different ViewPager/ViewPager2 transition animations:
+
+01. Background To Foreground.
+02. Cube In.
+03. Cube Out.
+04. Depth Page.
+05. Flip Horizontal.
+06. Flip Vertical.
+07. Foreground To Background.
+08. Rotate Down.
+09. Rotate Up.
+10. Tablet Page.
+11. Zoom In.
+12. Zoom Out.
 
 ## For Activity
 Using DDAnimatoo is extremely simple, A single short line of code following startActivity(...) is all that's needed, for example:
@@ -68,7 +83,20 @@ fragmentTransaction.commit();
 ```
 
 
-## All the available methods for this library:
+## For ViewPager
+Using DDAnimatoo is extremely simple, A single short line of code, for example:
+```java
+viewPager.setPageTransformer(new VpAnimatoo.BackgroundToForeground())
+```
+
+## For ViewPager2
+Using DDAnimatoo is extremely simple, A single short line of code, for example:
+```java
+viewPager2.setPageTransformer(new Vp2Animatoo.BackgroundToForeground())
+```
+
+
+## All the available methods for Activity:
 ```java
 Animatoo.animateZoom(context);
 Animatoo.animateFade(context);
@@ -87,10 +115,58 @@ Animatoo.animateSlideDown(context);
 Animatoo.animateSlideUp(context);
 ```
 
-# Inspiration
 
-This library was made by possible based on code and design inspiration from these sources:  
-https://github.com/AtifSayings/Animatoo
+## All the available methods for Fragment:
+```java
+FrAnimatoo.animateZoom(fragmentTransaction);
+FrAnimatoo.animateFade(fragmentTransaction);
+FrAnimatoo.animateWindmill(fragmentTransaction);
+FrAnimatoo.animateSpin(fragmentTransaction);
+FrAnimatoo.animateDiagonal(fragmentTransaction);
+FrAnimatoo.animateSplit(fragmentTransaction);
+FrAnimatoo.animateShrink(fragmentTransaction);
+FrAnimatoo.animateCard(fragmentTransaction);
+FrAnimatoo.animateInAndOut(fragmentTransaction);
+FrAnimatoo.animateSwipeLeft(fragmentTransaction);
+FrAnimatoo.animateSwipeRight(fragmentTransaction);
+FrAnimatoo.animateSlideLeft(fragmentTransaction);
+FrAnimatoo.animateSlideRight(fragmentTransaction);
+FrAnimatoo.animateSlideDown(fragmentTransaction);
+FrAnimatoo.animateSlideUp(fragmentTransaction);
+```
+
+
+## All the available methods for ViewPager:
+```java
+new VpAnimatoo.BackgroundToForeground()
+new VpAnimatoo.CubeIn()
+new VpAnimatoo.CubeOut()
+new VpAnimatoo.DepthPage()
+new VpAnimatoo.FlipHorizontal()
+new VpAnimatoo.FlipVertical()
+new VpAnimatoo.ForegroundToBackground()
+new VpAnimatoo.RotateDown()
+new VpAnimatoo.RotateUp()
+new VpAnimatoo.TabletPage()
+new VpAnimatoo.ZoomIn()
+new VpAnimatoo.ZoomOut()
+```
+
+## All the available methods for ViewPager2:
+```java
+new Vp2Animatoo.BackgroundToForeground()
+new Vp2Animatoo.CubeIn()
+new Vp2Animatoo.CubeOut()
+new Vp2Animatoo.DepthPage()
+new Vp2Animatoo.FlipHorizontal()
+new Vp2Animatoo.FlipVertical()
+new Vp2Animatoo.ForegroundToBackground()
+new Vp2Animatoo.RotateDown()
+new Vp2Animatoo.RotateUp()
+new Vp2Animatoo.TabletPage()
+new Vp2Animatoo.ZoomIn()
+new Vp2Animatoo.ZoomOut()
+```
 
 
 # Contribution
